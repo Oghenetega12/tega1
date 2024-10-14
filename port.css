@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+
+.main-2{
+    max-width: 90%;
+    margin: auto;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    width: 100%;
+    height: 70px;
+}
+
+.nav-list{
+    float: right;
+    
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+
+}
+
+nav ul li{
+    margin-right:50px ;
+    float: right;
+
+}
+
+.personal{
+    display: flex;
+
+}
+.name{
+    display:block;
+    margin: 200px 0px 180px 70px;
+}
+.name p{
+    font-size: 30px;
+}
+.name p scan{
+    font-size: 10px;
+    color: grey;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+}
+.personal-button{
+    display: flex;
+    margin-top: 30px;
+}
+.cv{
+    background-color: green;
+    color: white;
+    border: none;
+}
+.learn-more{
+    background-color: rgb(20, 19, 19);
+    color: white;
+    border: 1px solid grey;
+
+}
+.personal img{
+    width: 500px;
+    position: relative;
+    left: 70%;
+    margin-top: 50px;
+}
+#About{
+    text-align: center;
+}
+#contact{
+    display: block;
+    justify-content: center;
+    margin-top: 50px;
+}
+.contacts{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 10px; */
+
+
+}
+h1{
+    text-align: center;
+    font-size: 35px;
+}
+.grey-dot{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgb(43, 42, 42);
+    display:grid;
+    place-content: center;
+
+}
+.green-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: green;
+}
+
+
+.dot-card{
+    display: grid;
+    place-content: center;
+    place-items: center;
+    text-align: center;
+    margin: 30px;
+}
+
+.whatido{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.career{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+}
+.dev-card{
+    width: 300px;
+    height: 170px;
+    background-color: rgb(45, 44, 44);
+    margin-right: 40px;
+    font-size: 25px;
+    border: none;
+}
+.dev-icon{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    display: grid;
+    place-items: center;
+    border-radius: 2px;
+    background-color: green;
+    color: black;
+}
+.dev-card-content{
+    margin-left: 45px;
+    margin-top: 20px;
+}
+i{
+    color: green;
+}
+.skill{
+    margin-top: 50px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.languages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 195px;
+    margin-top: 50px;
+    background-color: grey;
+
+
+}
+.language{
+    margin: 50px;
+}
+
+.language p{
+    font-size: 60px;
+}
+
+.code{
+    font-size: 20px;
+    color: green;
+}
+
+.code-card{
+    margin-top: -60px;
+}

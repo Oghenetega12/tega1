@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Email Template</title>
+    <style>
+    * {
+    box-sizing: border-box;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        width: 100%;
+        height: 60px;
+    }
+    main{
+        width: 100%;
+        padding-left: 11px;
+    }
+    .footer-main{
+        background-color: #2b3c96;
+        color: white;
+        width:100%;
+        height: 120px;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        place-content: center;
+
+    }
+    .footer-socials{
+        width: 100%;
+        height: 40px;
+        background-color: black;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%; 
+        color: white;
+        display: flex;
+        place-content: center;
+        align-items: center;
+    }
+    i{
+        margin: 6px;
+        font-size: 15px;
+        color: white;
+    }
+    img{
+        width: 180px;
+    }
+    nav{
+        text-align: center;
+    }
+    .heading{
+        margin-bottom:8px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    @media only screen and (max-width: 600px) {
+        img{
+            width: 130px;
+        }
+        .footer-main{
+            height: 120px;
+            font-size: 16px;
+        }
+        .footer-socials{
+            height: 33px;
+        }
+        i{
+            font-size: 15px;
+            margin: 6px;
+        }
+        main{
+            font-size: 15px;
+            padding-left: 8px;
+        }
+        .heading{
+            margin-bottom:5px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="/blue-logo.png">
+        </nav>
+    </header>
+    
+    <main>
+        <p>
+            <div class="heading">Hello, Allison</div>
+            testing
+            testing
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+            when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
+            It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </main>
+
+    <footer>
+        <div class="footer-main">
+            <p>
+                you are receiving this because you asked us about regular newsletter.<br>
+                you can unsubscribe from these emails.<br>
+            </p>
+        </div>
+        <div class="footer-socials">
+            <a href="https://www.instagram.com/topupboxhq/>"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/topupboxHQ"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://web.facebook.com/topupboxHQ/"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://www.linkedin.com/company/104670627/admin"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
